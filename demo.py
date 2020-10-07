@@ -82,10 +82,6 @@ class Example(QMainWindow):
         text = '''
 ------------------------------------------------------------------------------------------------------------------
 
-0.036
-0036旧版全汉化 by.叶子&灰烬
-(2020.5.21)
- 
 ※これはの改変・再配布です。
 ------------------------------------------------------------------------------------------------------------------
 [0] 新的开始
@@ -93,7 +89,6 @@ class Example(QMainWindow):
 '''
         text_browser.append(text)
         text_browser.append('''
-        <a href="resource/test.jpg">test</a>
         <table width="100%">
             <tr>
                 <td style="text-align: center;">Here is some text.</td>
@@ -102,7 +97,6 @@ class Example(QMainWindow):
                 <td style="text-align: center;"><img height="256" src="resource/test.jpg"/></td>
             </tr>
         </table>
-        <button>test</button>
         ''')
         #for i in range(10):
         #    text_browser.append(text)
